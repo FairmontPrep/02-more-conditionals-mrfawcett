@@ -68,6 +68,9 @@ public class HonorRoll {
     public static String awardQualifier(double gpa, int tardies, int detentions) {
         // Insert your code below
 
+        if(gpa >= 5){
+            return "Five";
+        }
         return "";
     }
 }
